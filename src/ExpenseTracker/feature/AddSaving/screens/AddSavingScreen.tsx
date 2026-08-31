@@ -45,9 +45,7 @@ function AddSavingScreen({navigation}:Props){
 
                        
                         <FormField  fieldType="TextInput" value={title} setValue={setTitle} title="Saving Title"/>
-
-
-                      
+                        
                         <FormField  fieldType="TextArea" value={note} setValue={setNote} title="Note" containerStyle={{flex:1}}/>
 
 
