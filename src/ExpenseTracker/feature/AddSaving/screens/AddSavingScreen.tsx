@@ -38,14 +38,10 @@ function AddSavingScreen({navigation}:Props){
                      
                         <FormField  dropdownData={SavingCategoriesData} fieldType="Dropdown" value={selectedCategory} setValue={setSelectedCategory} title="Categories"/>
 
-
-                      
                         <FormField  fieldType="NumberInput" value={amount} setValue={setAmount} title="Amount"/>
 
-
-                       
                         <FormField  fieldType="TextInput" value={title} setValue={setTitle} title="Saving Title"/>
-                        
+
                         <FormField  fieldType="TextArea" value={note} setValue={setNote} title="Note" containerStyle={{flex:1}}/>
 
 
