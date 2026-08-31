@@ -1,4 +1,31 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 💰 Finance Tracker
+
+A personal finance and budget management mobile app built with **React Native**, designed to help you track spending, manage budgets, and get a clear picture of your financial health — all in one place.
+ 
+This is a **side project** built for learning and personal use, based on a finance management UI/UX kit design ([Figma reference](https://www.figma.com/design/8OkIG2nPpBLLzAkcvIS7bD/Finance-Management-Mobile-App-UI-UX-Kit-for-Budget-Tracker-Financial-Prototype-Design--Community-))
+
+## ✨ Features
+ 
+ 
+- 📊 **Dashboard overview** — see your balance, income, and expenses at a glance
+- 💸 **Transaction tracking** — log and categorize daily expenses and income
+- 🗂️ **Budget categories** — organize spending into custom categories
+- 📈 **Spending insights** — visualize where your money goes with charts
+- 🌗 **Clean, modern UI** — smooth navigation and a minimal, intuitive design
+
+## 🛠️ Tech Stack
+ 
+- [React Native](https://reactnative.dev) — cross-platform mobile framework
+- [@react-native-community/cli](https://github.com/react-native-community/cli) — project bootstrapping
+- *(add state management, navigation, backend/storage libraries you're using, e.g. React Navigation, Zustand/Redux, AsyncStorage, Firebase, etc.)*
+
+## 📱 Screenshots
+ 
+> Add a few screenshots or a screen recording GIF here once you have them — it makes a big difference for a portfolio/side project README.
+ 
+## 🚧 Project Status
+ 
+This app is a **work-in-progress side project**. Features are being added incrementally as time allows. Feedback and suggestions are welcome!
 
 # Getting Started
 
