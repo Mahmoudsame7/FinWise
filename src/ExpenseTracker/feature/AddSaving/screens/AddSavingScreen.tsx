@@ -45,7 +45,7 @@ function AddSavingScreen({navigation}:Props){
                         <FormField  fieldType="TextArea" value={note} setValue={setNote} title="Note" containerStyle={{flex:1}}/>
 
 
-                         <TouchableOpacity style={{ height: 36, minWidth: 169, borderRadius: 20, backgroundColor: Colors.MainGreen, justifyContent: 'center', alignItems: 'center', alignSelf: 'center', marginTop: 20,paddingHorizontal:5 }}>
+                        <TouchableOpacity style={{ height: 36, minWidth: 169, borderRadius: 20, backgroundColor: Colors.MainGreen, justifyContent: 'center', alignItems: 'center', alignSelf: 'center', marginTop: 20,paddingHorizontal:5 }}>
                             <Text style={{ ...GlobalStyles.textMedium15 }}>Save</Text>
                         </TouchableOpacity>
 

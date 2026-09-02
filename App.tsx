@@ -24,8 +24,8 @@ function App() {
   return (
     <SafeAreaProvider>
       
-      <StoryNavigator/>
-      {/* <ExpenseNavigator /> */}
+      {/* <StoryNavigator/> */}
+      <ExpenseNavigator />
    
     </SafeAreaProvider>
   );

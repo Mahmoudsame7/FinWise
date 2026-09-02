@@ -17,7 +17,7 @@ export type RootTabParamList = {
 export type BoardingParamList = {
   WelcomeScreen: undefined;
   LoginScreen: undefined;
-  RegisterScreen: undefined;
+  SignUpScreen: undefined;
   ForgotPasswordScreen: undefined;
   // Notifications: undefined
 };

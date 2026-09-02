@@ -40,7 +40,7 @@ export const GenerateYearExpenses = (() => {
   const expenses = [];
   let id = 1;
 
-  const start = new Date("2026-07-01");
+  const start = new Date("2026-08-01");
   const end = new Date();
 
   for (

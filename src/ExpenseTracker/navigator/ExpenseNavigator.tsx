@@ -34,6 +34,7 @@ import { GlobalStyles } from "../utilities/GlobalStyles";
 import SplashScreen from "../feature/Splash/screens/SplashScreen";
 import WelcomeScreen from "../feature/Welcome/screens/WelcomeScreen";
 import LoginScreen from "../feature/Login/screens/Login";
+import SignUpScreen from "../feature/Signup/screens/Signup";
 
 const Bottomtabs = createBottomTabNavigator<RootTabParamList>();
 function ExpenseBottomtabs() {
@@ -321,6 +322,11 @@ function BoardingStack(){
          <BoardingStackNavigator.Screen
           name="LoginScreen"
           component={LoginScreen}
+          />
+
+        <BoardingStackNavigator.Screen
+          name="SignUpScreen"
+          component={SignUpScreen}
           />
        
          
